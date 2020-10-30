@@ -1,1 +1,1 @@
-from media_preprocessor import media_pro
+from media_preprocessor import med_pre
