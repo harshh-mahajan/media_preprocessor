@@ -59,5 +59,4 @@ class preprocess_tool:
         temp /= 255.0
         return temp
 
-if __init__=="__main__":
-    None
+
