@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import pandas as pd
 import cv2
 
-class pre_pro:
+class pro_pre:
     def nbg_vc(self,shape):
         shape=shape
         cap = cv2.VideoCapture(0)
