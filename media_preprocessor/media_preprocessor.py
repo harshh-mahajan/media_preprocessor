@@ -58,3 +58,6 @@ class preprocess_tool:
         temp = temp.astype('float32')
         temp /= 255.0
         return temp
+
+if __init__=="__main__":
+    None
