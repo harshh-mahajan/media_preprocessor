@@ -1,21 +1,21 @@
 from distutils.core import setup
 from os import path
 this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
   name = 'media_preprocessor',         
   packages = ['media_preprocessor'],   
   long_description=long_description,
-  long_description_content_type='text/markdown',
-  version = '9.0',      
+  long_description_content_type='text/x-rst',
+  version = '10.0',      
   license='MIT',        
   description = 'tool for preprocessing media',  
   author = 'Harsh Mahajan, Akash Patil, Pranit Shriyan, Jayesh Singh, Shankh Suri, Tazeem Khan',                   
   author_email = 'harsh.mahajan28@nmims.edu.in',     
   url = 'https://github.com/harshh-mahajan/media_preprocessor', 
-  download_url = 'https://github.com/harshh-mahajan/media_preprocessor/archive/9.0.tar.gz',  
+  download_url = 'https://github.com/harshh-mahajan/media_preprocessor/archive/10.0.tar.gz',  
   keywords = ['image', 'preprocessing', 'reshape','resize','background'],  
   install_requires=[            
           'validators',
