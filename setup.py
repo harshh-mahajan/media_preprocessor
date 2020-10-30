@@ -1,14 +1,14 @@
-from distutils.core import setup
+from setuptools import setup, Extension
 from os import path
 this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
   name = 'media_preprocessor',         
   packages = ['media_preprocessor'],   
   long_description=long_description,
-  long_description_content_type='text/x-rst',
+  long_description_content_type='text/markdown',
   version = '10.0',      
   license='MIT',        
   description = 'tool for preprocessing media',  
