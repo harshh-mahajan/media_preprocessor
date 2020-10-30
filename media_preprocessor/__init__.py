@@ -1,1 +1,1 @@
-from media_preprocessor import preprocess_tool
+from media_preprocessor.media_preprocessor import preprocess_tool
